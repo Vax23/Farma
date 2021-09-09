@@ -1,0 +1,150 @@
+*{
+    
+    box-sizing: content-box;
+    font-family:sans-serif;
+}
+
+head,body{
+
+    background: url(pozadina.jpg) repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+input{
+    border-radius: 10px;
+    background: radial-gradient(circle, antiquewhite 0%, white 100%);
+    padding: 10px;
+}
+
+select
+{
+   margin: 5px;
+}
+
+label{
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    padding: 2px;
+}
+
+.gornjiDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.inventarForme
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.kontInventar
+{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: auto;
+    flex-direction: column;
+}
+
+.divZaCrtanje{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.proizvod{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    flex:1 0 130px;
+    margin: 10px;
+    text-align: center;
+    background-color:antiquewhite;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.info, .nazivForme
+{
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bold;
+    margin: 10px;
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+.divZaInvForme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.red
+{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.kontFarma
+{
+    display: flex;
+    flex-direction: column;
+    background-size: 100% 350px;
+}
+
+
+
+.formaInventar
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;    
+    margin: 10px;
+    min-width: 200px;
+    width: 18%;
+    align-self: center;
+    border: 3px solid black;  
+    background-size: 100% 100%; 
+    border-radius: 10px;
+}
+
+.dugme
+{
+    border-radius: 5px;
+    border: 3px solid  black;
+    background: radial-gradient(circle, antiquewhite 0%, white 100%);
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+.miniInvForme
+{
+    flex:0 0 250px;
+    flex-direction: column;
+    min-width: 220px;
+    border: 3px groove black;
+    padding: 5px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+}   

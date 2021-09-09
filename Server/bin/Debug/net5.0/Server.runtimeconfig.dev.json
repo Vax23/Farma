@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Vax\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Vax\\.nuget\\packages"
+    ]
+  }
+}
